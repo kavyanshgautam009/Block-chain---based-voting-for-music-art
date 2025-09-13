@@ -1,0 +1,15 @@
+[package]
+name = "blockchain-basedvotingformusic/art"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x1f5538e375be0ea99ec6ad524eb8254353047ca61588359d5b5f1702d5f0fd50"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
